@@ -17,5 +17,5 @@ variable "instance_tenancy" {
 }
 
 variable "tags" {
-  default = "default"
+  default = ""
 }
