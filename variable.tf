@@ -23,12 +23,12 @@ variable "public_subnet_tags" {
   default = ""
 }
 variable "public_subnet" {
-  default = "10.0.1.0/16"
+  default = "10.0.1.0/24"
 }
 
 variable "private_subnet_tags" {
   default = ""
 }
 variable "private_subnet" {
-  default = "10.0.1.0/16"
+  default = "10.0.2.0/24"
 }
