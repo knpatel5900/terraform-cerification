@@ -4,3 +4,7 @@ variable "vpc_cidr" {
 variable "tenancy" {
     default = "default"
 }
+
+variable "vpc_cidr_public" {
+    default = "10.0.1.0/24"
+}
