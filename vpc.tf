@@ -7,22 +7,6 @@ resource "aws_vpc" "main" {
   }
 }
 
-resource "aws_subnet" "public" {
-  vpc_id     = aws_vpc.main.id
-  cidr_block = var.public_subnet
 
-  tags = {
-    Name = var.public_subnet_tags
-  }
-}
-
-resource "aws_subnet" "private" {
-  vpc_id     = aws_vpc.main.id
-  cidr_block = var.private_subnet
-
-  tags = {
-    Name = var.private_subnet_tags
-  }
-}
 
 
