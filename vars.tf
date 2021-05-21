@@ -23,3 +23,7 @@ variable "vpc_public_tag" {
 variable "vpc_private_tag" {
     default = "private_subnet"
 }
+ 
+ variable "igw_tag" {
+     default = "igw_tag"
+ }
