@@ -27,3 +27,7 @@ variable "vpc_private_tag" {
  variable "igw_tag" {
      default = "igw_tag"
  }
+
+ variable "rt_public" {
+   default = "rt_public"
+ }
