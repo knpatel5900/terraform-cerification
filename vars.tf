@@ -31,3 +31,7 @@ variable "vpc_private_tag" {
  variable "rt_public" {
    default = "rt_public"
  }
+
+ variable "route_cidr" {
+   default = "0.0.0.0/24"
+ }
